@@ -1,59 +1,57 @@
 # How to Create a B20 Token on Base (Beginner Guide)
 
-B20 is Base’s new native token standard (launched with the Beryl upgrade in 2026).  
-It is better than normal ERC-20: cheaper, faster, and has built-in features like roles, pause, supply cap, and freeze.
+B20 is Base’s new **native token standard** (launched with the Beryl upgrade in 2026).  
+It is better than normal ERC-20 — cheaper, faster, and comes with built-in features like roles, pause, supply cap, freeze, and memos.
 
-This is a simple guide for beginners.
+This is a simple step-by-step guide for beginners.
 
 ## What is B20?
-- Native token standard on Base
-- Fully compatible with ERC-20 wallets and DEXs
-- Built directly into the chain (precompile)
-- Perfect for normal tokens, memecoins, stablecoins, and RWAs
 
-Official docs:  
-https://docs.base.org/get-started/launch-b20-token
+- Native token standard built directly into Base (precompile)
+- Fully compatible with ERC-20 wallets, DEXs, and tools
+- Cheaper and higher throughput than normal smart contract tokens
+- Perfect for meme coins, utility tokens, stable coins, and RWAs
 
-## Easiest Ways to Create a B20 Token (No Coding)
+**Official Docs:**  
+[https://docs.base.org/get-started/launch-b20-token](https://docs.base.org/get-started/launch-b20-token)
 
-### Method 1: Using a Launcher (Recommended for beginners)
+## Easiest Way to Create a B20 Token (No Coding Needed)
+
+### Method 1: Using a Launcher (Recommended)
+
 1. Go to one of these sites:
-   - https://www.b20launch.com/
-   - https://b20factory.xyz/
-   - o1.exchange B20 pad
+   - [https://www.b20launch.com/](https://www.b20launch.com/)
+   - [https://b20factory.xyz/](https://b20factory.xyz/)
 
-2. Connect your wallet (Base network)
+2. Connect your wallet (make sure you are on **Base** network)
 3. Choose **Asset** variant
 4. Fill in:
    - Token Name
    - Symbol
    - Decimals (usually 18)
-5. Click Create and confirm the transaction
-6. Done! Copy your token address
+5. Click **Create** and confirm the transaction in your wallet
+6. Done! Copy your new token address
 
-### Method 2: Using Base Official Tools (Slightly advanced)
-Follow the official quickstart:  
-https://docs.base.org/get-started/launch-b20-token
+### Method 2: Official Base Method (Slightly Advanced)
 
-## My Example Token
-I created this token while making this guide:
+Follow the official quick start guide:  
+[https://docs.base.org/get-started/launch-b20-token](https://docs.base.org/get-started/launch-b20-token)
 
-- Name: 
-- Symbol: 
-- Address: 
-- Basescan: 
 
-## Why B20 is better than normal ERC-20
+
+## Why B20 is Better than Normal ERC-20
+
 - Cheaper transfers
 - Higher throughput
-- Built-in admin roles, pause, supply cap, memos, freeze
-- No need to write and audit a full contract
+- Built-in roles, pause, supply cap, freeze, and memos
+- No need to write and audit a full smart contract
 
 ## Useful Links
-- Official B20 Docs: https://docs.base.org/base-chain/specs/upgrades/beryl/b20
-- Base Standard Library: https://github.com/base/base-std
+
+- Official B20 Documentation: [https://docs.base.org/base-chain/specs/upgrades/beryl/b20](https://docs.base.org/base-chain/specs/upgrades/beryl/b20)
+- Base Standard Library: [https://github.com/base/base-std](https://github.com/base/base-std)
 
 ---
 
-Made by ukml for the Base community  
-Feel free to star this repo if it helped you!
+Made by **ukml** for the Base community  
+
